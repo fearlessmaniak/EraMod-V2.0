@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const qdb = require("quick.db");
 const ms = require('ms');
 require("moment-duration-format");
-require("../atonlys.js");
+require("../era.js");
 
 exports.execute = async (client, message, args) => {
     if(!message.member.roles.cache.has(client.config.booster))
