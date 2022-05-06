@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const qdb = require("quick.db");
-require("../atonlys.js");
+require("../era.js");
 exports.execute = async (client, message, args) => {
     let embed = new MessageEmbed().setAuthor(message.member.displayName, message.author.avatarURL({dynamic: true})).setFooter(client.config.footer).setColor("RANDOM");
 
