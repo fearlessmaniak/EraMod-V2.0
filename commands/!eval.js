@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const qdb = require("quick.db")
-require("../atonlys.js");
+require("../era.js");
 exports.execute = async (client, message, args) => {
  
  
