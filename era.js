@@ -107,5 +107,179 @@ client.config = {
     onay : "812423721067348029", //Onay Emoji ID Sayı Olarak Örnek : onay : "1123023109213",
     red : "812423754578788413", //Red Emoji ID Sayı Olarak Örnek : onay : "1123023109213",
   },
+ 
 
+     bot : { 
+
+         token : "BOT TOKENİNİZİ MAİN KISMINA GİRİNİZ 49. SATIRDA", 
+
+         owner : "KESİNLİKLE KENDİ İDNİ GİR YOKSA ÇALIŞMAZ", 
+
+         prefix : ".", 
+
+         BotStatus : "YOUTUBE BORANGKDN", 
+
+         BotFooter : "YOUTUBE BORANGKDN", 
+
+         cooldown : 8 
+
+     }, 
+
+     penals : { 
+
+         ban : { 
+
+             staff : "BAN YETKİLİSİ ID", 
+
+             log : "BAN LOG ID", 
+
+             limit : 3 
+
+         }, 
+
+         jail : { 
+
+             staff : "JAİL YETKİLİSİ ID", 
+
+             roles : "CEZALI ROLÜ ID", 
+
+             log : "CEZA LOG ID", 
+
+             limit : 5 
+
+         }, 
+
+         mute : { 
+
+             staff : "MUTE YETKİLİSİ ID", 
+
+             roles : "SUSTURURULMUS ROLÜ ID", 
+
+             log : "MUTE LOG ID", 
+
+             limit : 5 
+
+         }, 
+
+         warn: { 
+
+             staff: "WARN YETKİLİSİ ID", 
+
+             log: "WARN LOG ID" 
+
+         }, 
+
+         transport : { 
+
+             staff: "TAŞIYICI YETKİLİSİ ID" 
+
+         }, 
+
+         points: { 
+
+             mutepoints: "10", 
+
+             banpoints: "30", 
+
+             jailpoints: "20", 
+
+             warnpoints: "5" 
+
+         } 
+
+     }, 
+
+     logs: { 
+
+         taglog: "TAG LOG ID", 
+
+         rollog: "ROL LOG ID", 
+
+         messagelog: "MESAJ LOG ID", 
+
+         seslog: "SES LOG ID" 
+
+     }, 
+
+     roles: { 
+
+         vip: "VİP ROL ID", 
+
+         sponsor: "SPONSOR ROL ID", 
+
+         müzisyen: "MÜZİSYEN ROL ID", 
+
+         team: "TAGLI ROL ID" 
+
+     }, 
+
+     channels: { 
+
+         chat: "CHAT KANALI ID", 
+
+         voicechannel: "BOT SES KANALI ID", 
+
+         welcomechannel: "HOŞ GELDİN KANALI ID", 
+
+         rules: "KURALLAR KANALI ID" 
+
+     }, 
+
+     registration: { 
+
+         unregistered: "KAYITSIZ ROL ID", 
+
+         man: ["ERKEK ROL ID", "2. ERKEK ROL ID"], 
+
+         woman: ["KADIN ROL ID", "2. ERKEK ROL ID"], 
+
+         yetkilialim: "YETKİLİ ALIM ROL ID", 
+
+         staff: "REGİSTER ROL ID", 
+
+         enaltyetkilirolü: "EN ALT YETKİLİ ROL ID", 
+
+         GuilDTag: "SUNUCU TAGINIZ", 
+
+         TagSymbol: "ISIM YAŞIN ÖNÜNE KOYULACAK SEMBOL", 
+
+         autonickname: "$ İsim | Yaş", 
+
+         symbol: "|", 
+
+         suspecios: "ŞÜPHELİ ROL ID", 
+
+         susoeciosnickname: "Şüpheli Hesap", 
+
+         oneman: "1. ERKEK ROLU", 
+
+         onewoman: "2. ERKEK ROLU", 
+
+         minage: 13,  
+
+         purchase: false 
+
+     }, 
+
+     Guild: { 
+
+         GuildID: "SUNUCU ID", 
+
+         GuilDName: "BoranGkdn Video", 
+
+         GuildOwnerRole: ["SUNUCU OWNER ROL ID"] 
+
+     }, 
+
+     emojis: { 
+
+         tada: "TADA EMOJİSİ", 
+
+         yes: "ONAY EMOJİSİ", 
+
+         no: "RED EMOJİSİ" 
+
+  
+
+     }
 }
